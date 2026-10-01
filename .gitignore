@@ -1,0 +1,16 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter and operating-system artifacts
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Local validation helpers and scratch files.
+work/
+
+# Keep the generated portfolio charts under version control.
+!output/*.png
